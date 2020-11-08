@@ -6,7 +6,7 @@
 	<title>Test Task (E-mail)</title>
 </head>
 <body>
-	<table style="margin:auto; background-color:#5e7be1; width:60%; @media screen and (max-width: 600px) {width:100%; background-color=blue;}">
+	<table class="card" style="margin:auto; background-color:#5e7be1; width:60%;">
 			<tr>
 				<td colspan="2">
 					<h1 style="text-align:center; color: #0e256a; font-size: 24px;">Pult.ru</h1>
@@ -15,10 +15,10 @@
 			
 			<tr>
 				<td>
-					<img style="width:300px;" alt="myPhoto" src="https://sun9-21.userapi.com/vscza08CpbFUIy_Yj18ruxfMhenikeJ-1TOwTg/5Ulsh9uGwmY.jpg"  >
+					<img style="border-radius: 5px; width:300px;" alt="myPhoto" src="https://sun9-21.userapi.com/vscza08CpbFUIy_Yj18ruxfMhenikeJ-1TOwTg/5Ulsh9uGwmY.jpg"  >
 				</td>
 				<td>
-					<p style='color:#37487a; margin-left: 10px;'>Добрый день! Меня зовут Тимофей, я верстальщик из Санкт-Петербурга. 
+					<p style='color:#37487a; margin-left: 10px;'>Добрый день! Меня зовут Тимофей, я верстальщик из Санкт-Петербурга.
 				</td>
 			</tr>
 
@@ -58,5 +58,15 @@
 				</td>
 			</tr>
 		</table>
+
+		<style type="text/css">
+
+			@media screen and (max-width: 600px) {
+				.card {
+					width: 100% !important;
+					background-color: green !important;
+				}
+			}
+		</style>
 </body>
 </html>
